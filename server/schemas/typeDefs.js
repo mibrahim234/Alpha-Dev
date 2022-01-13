@@ -23,9 +23,10 @@ const typeDefs = gql`
     }
 
     type Mutation {
-        login(email: String!, password: String!): Auth 
-        addUser(username: String!, email: String!, password: String!): Auth
+        login(email: String!, password: String!): User //
+        addUser(username: String!, email: String!, password: String!): User
     }
 `;
+// IN THE MUTATION NEED TO REVERT THE LOGIN AND ADDUSER MUTATIONS FROM ":USER" --> ": AUTH" for Authentication
 // export the typeDefs
 module.exports = typeDefs;
