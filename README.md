@@ -1,18 +1,18 @@
-# DevHelp
+# Alpha Dev
 --customize the index.html react app
 --manifest 
 --readme 
 --mongodb database
 --brainstorm the app ideas (formatting)
 
-# M&M Dev ![GitHub license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
+# Alpha Dev ![GitHub license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 
 ## Deployed Site 
 https://devhelpthebestdevhelp.herokuapp.com/
 
 
 ## Description 
- M&M Dev is an interactive web application built using the MERN stack and GraphQL for its API's.
+ Alpha Dev is an interactive web application built using the MERN stack and GraphQL for its API's.
 This website helps companies hire software engineers for freelance work. This website is also a place developers can join and work for companies. 
 
 
@@ -92,7 +92,7 @@ Tutors Donnahue
 
 
 ## Website
-[Link to the GIT repository](https://github.com/mibrahim234/DevHelp)
+[Link to the GIT repository](https://github.com/mibrahim234/Alpha-Dev)
 
 
 ## Contribution
