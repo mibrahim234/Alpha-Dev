@@ -1,5 +1,6 @@
 const { User } = require("../models");
 const { AuthenticationError } = require('apollo-server-express');
+const { signToken } = require('../utils/auth');
 
 const resolvers = {
     Query: {
@@ -18,7 +19,7 @@ const resolvers = {
                 return userData;
             }
 
-            // throw new AuthenticationError("Not logged in");
+            throw new AuthenticationError("Not logged in");
         }
     },
     
