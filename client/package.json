@@ -1,7 +1,8 @@
 {
-  "name": "devhelp",
+  "name": "alphadev",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001/",
   "dependencies": {
     "@apollo/client": "^3.5.7",
     "@fontsource/roboto": "^4.5.1",
@@ -12,6 +13,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "graphql": "^15.5.0",
+    "jwt-decode": "^3.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
