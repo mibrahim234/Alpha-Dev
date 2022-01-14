@@ -1,13 +1,15 @@
 import React from 'react';
-// import { useQuery } from '@apollo/client';
+import Button from '@mui/material/Button'
+// import { useQuery } from '@apollo/client';f
 
 const Home = () => {
     return (
-        <main>
+        
         <div>
             <h1>Hello World!</h1>
+            <Button>Hello</Button>
         </div>
-    </main>
+
     )
   };
 
