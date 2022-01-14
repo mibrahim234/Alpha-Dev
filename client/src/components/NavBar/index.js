@@ -17,6 +17,8 @@ const Header = () => {
 // return different navigation items depending on the outcome of the Auth.loggedIn().
 //  If it returns true, and we're logged in, we want to display navigation items tailored to the user.
 // If it returns false, we'll display the default items for logging in and signing up.
+
+// need to add resposiveness to buttons 
   return (
     <header className="bg-secondary mb-4 py-2 flex-row align-center">
       <div className="container flex-row justify-space-between-lg justify-center align-center">

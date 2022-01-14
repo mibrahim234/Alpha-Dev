@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // make pages for company and developers 
+// need to add responsiveness 
 
 const Home = () => {
     return (

@@ -98,7 +98,7 @@ nav a {
 
 nav a:hover {
   color: var(--secondary);
-  background-color: var(--dark);
+  background-color: var(--boxlinksdarkgreen);
 }
 
 .page-title {
@@ -125,7 +125,7 @@ nav a:hover {
 .btn:hover,
 .pill:hover {
   color: var(--secondary);
-  background-color: var(--dark);
+  background-color: var(--boxlinksdarkgreen);
 }
 
 .btn:hover a,
@@ -246,11 +246,24 @@ nav a:hover {
   width: 92%;
 }
 
-/* Button */
+/* Button Styles for all buttons */
 .btn {
-  color: var(--textinsidebox);
-  background-color: var(--Logodarkgreen);
+  color: var(--Logodarkgreen);
+  background-color: var(--textinsidebox);
   font-size: 25px;
+}
+
+.btn:hover {
+  background-color: var(--boxlinksdarkgreen);
+}
+
+/* For Footer */
+.footer1 {
+  font-size: 20px;
+  margin-top: auto;
+  background-color: var(--headerfooter);
+  color: var(--textinsidebox); 
+  text-align: center;
 }
 
 /* DISPLAY */
