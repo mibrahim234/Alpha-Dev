@@ -246,6 +246,13 @@ nav a:hover {
   width: 92%;
 }
 
+/* Button */
+.btn {
+  color: var(--textinsidebox);
+  background-color: var(--Logodarkgreen);
+  font-size: 25px;
+}
+
 /* DISPLAY */
 .display-none {
   display: none;
