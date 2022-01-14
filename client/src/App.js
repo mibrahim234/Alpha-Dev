@@ -14,7 +14,6 @@ import { setContext } from "@apollo/client/link/context";
 // Components and Pages
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import NavBar from "./components/NavBar";
 
 import Home from "./pages/Home";
 import Login from "./pages/Login";
@@ -48,8 +47,7 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <>
-          {/* <Header /> */}
-          <NavBar/>
+          <Header />
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/login" component={Login} />
