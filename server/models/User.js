@@ -2,6 +2,9 @@ const { Schema, model } = require('mongoose');
 // password hashing 
 const bcrypt = require('bcrypt');
 
+// const devSchema = require("./Developer");
+// const companySchema = require("./Company")
+
 const userSchema = new Schema(
   {
     username: {
@@ -21,7 +24,8 @@ const userSchema = new Schema(
       type: String,
       required: true,
       minlength: 5
-    }
+    },
+    // position: devSchema || companySchema
   },
   {
     toJSON: {
