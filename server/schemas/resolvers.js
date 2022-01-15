@@ -47,15 +47,23 @@ const resolvers = {
             return { token, user };
 
         }, 
-        updateUser: async (parent, args, context) => {
-            const user = await User.findOneAndUpdate(
+        updateDevUser: async (parent, args, context) => {
+            const updatedUser = await User.findOneAndUpdate(
                 {_id: context.user._id},
-                {$push: {position: args.PositionDetails}},
+                {$push: {position: args.DevDetails}},
                 {new: true}
             )
-            return updateUser
-        }
-    },
+            return updatedUser
+        },
+        updateCompanyUser: async (parent, args, context) => {
+            const updatedUser = await User.findOneAndUpdate(
+                {_id: context.user._id},
+                {$push: {position: args.CompanyDetails}},
+                {new: true}
+            )
+            return updatedUser
+        },
+    }
 };
 
 module.exports = resolvers;

@@ -17,7 +17,7 @@ const Companies = () => {
                     <option value="checkbox">Full Stack</option>
                 </select>
 
-                <p>Question 2: What development languages do you use? </p>
+                <p>Question 2: What development languages are you looking to use? </p>
                 <select className="answers">
                     <option value="checkbox">HTML + CSS</option>
                     <option value="checkbox">Javascript</option>

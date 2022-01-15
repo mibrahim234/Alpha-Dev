@@ -22,7 +22,7 @@ const typeDefs = gql`
 
     }
 
-    input PositionDetails {
+    input DevDetails {
         perferredStack: String!,
         language: String!,
         availability: String!, 
@@ -30,10 +30,19 @@ const typeDefs = gql`
         startDate: String!
     }
 
+    input CompanyDetails {
+        preferredRole: String!,
+        language: String!,
+        length: String!,
+        commitment: String!,
+        startDate: String!
+    }
+
     type Mutation {
         login(email: String!, password: String!): Auth
         addUser(username: String!, email: String!, password: String!): Auth
-        updateUser(position: PositionDetails): User
+        updateDevUser(position: DevDetails): User
+        updateCompanyUser(position: CompanyDetails): User
     }
 `;
 

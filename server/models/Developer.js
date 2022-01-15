@@ -20,5 +20,3 @@ const devSchema = new Schema({
 });
 
 module.exports = devSchema;
-
-// referencing input/position details
