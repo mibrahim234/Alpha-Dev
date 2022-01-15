@@ -289,7 +289,7 @@ nav a:hover {
 /* For Footer */
 .footer1 {
   font-size: 20px;
-  margin-top: auto;
+  /* margin-top: auto; */
   background-color: var(--headerfooter);
   color: var(--textinsidebox); 
   text-align: center;
