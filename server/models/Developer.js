@@ -4,3 +4,5 @@ const { Schema } = require('mongoose');
 const devSchema = new Schema({});
 
 module.exports = devSchema;
+
+// referencing input/position details

@@ -28,7 +28,6 @@ const typeDefs = gql`
           Availability: String!, 
           Commitment: String!, 
           startDate: String!
-
     }
 
     type Mutation {
