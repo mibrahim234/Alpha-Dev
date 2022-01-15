@@ -14,9 +14,9 @@ const Home = () => {
 
             <h1>Matching talent with Opportunity.</h1>
 
-            <button className="btn"> <Link to="/developers">Companies - Find Talent</Link></button>
+            <button className="btn m-3"> <Link to="/developers">Companies - Find Talent</Link></button>
 
-            <button className="btn"><Link to="/companies">Developers - Find An Opportunity</Link></button>
+            <button className="btn m-3"><Link to="/companies">Developers - Find An Opportunity</Link></button>
           </div>
 
     )

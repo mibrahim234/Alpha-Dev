@@ -8,6 +8,7 @@ import { ADD_USER } from '../utils/mutations';
 import Auth from '../utils/auth';
 // auth from utils folder to store token
 
+
 const Signup = () => {
   const [formState, setFormState] = useState({
     username: '',
@@ -49,7 +50,7 @@ const Signup = () => {
     <main className="flex-row justify-center mb-4">
       <div className="col-12 col-md-6">
         <div className="card">
-          <h4 className="card-header">Sign Up</h4>
+          <h4 className="card-header"></h4>
           <div className="card-body">
             <form onSubmit={handleFormSubmit}>
               <input
@@ -80,7 +81,7 @@ const Signup = () => {
                 onChange={handleChange}
               />
               <button className="btn d-block w-100" type="submit">
-                Submit
+                Signup
               </button>
             </form>
 
