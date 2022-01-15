@@ -24,10 +24,10 @@ const typeDefs = gql`
 
     input PositionDetails {
         perferredStack: String!,
-         Language: String!,
-          Availability: String!, 
-          Commitment: String!, 
-          startDate: String!
+        language: String!,
+        availability: String!, 
+        commitment: String!, 
+        startDate: String!
     }
 
     type Mutation {

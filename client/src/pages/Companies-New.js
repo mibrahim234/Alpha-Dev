@@ -1,6 +1,6 @@
 import React from "react";
 
-const Developers = () => {
+const Companies = () => {
     return (
 
 
@@ -56,4 +56,4 @@ const Developers = () => {
     );
 };
 
-export default Developers;
+export default Companies;

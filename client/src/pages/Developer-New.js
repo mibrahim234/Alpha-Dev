@@ -1,6 +1,6 @@
 import React from "react";
 
-const Companies = () => {
+const Developers = () => {
     return (
         <div>
             
@@ -49,5 +49,5 @@ const Companies = () => {
     );
 };
 
-export default Companies;
+export default Developers;
 
