@@ -2,8 +2,8 @@ const { Schema, model } = require('mongoose');
 // password hashing 
 const bcrypt = require('bcrypt');
 
-// const devSchema = require("./Developer");
-// const companySchema = require("./Company")
+const devSchema = require("./Developer");
+const companySchema = require("./Company")
 
 const userSchema = new Schema(
   {
@@ -25,7 +25,7 @@ const userSchema = new Schema(
       required: true,
       minlength: 5
     },
-    // position: devSchema || companySchema
+    position: devSchema || companySchema
   },
   {
     toJSON: {

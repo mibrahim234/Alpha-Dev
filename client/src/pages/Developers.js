@@ -2,55 +2,56 @@ import React from "react";
 
 const Developers = () => {
     return (
+
+
+
+        //handle sumbit -- on submit
         <div>
-            <form>
+
             <p>Please answer the following questions to help us determine the right talent for your company!  </p>
 
                 <p>Question 1: What role are you looking to hire? </p>
-                <label className="answers">
-                    <input type="checkbox" />Front End
-                    <input type="checkbox" />Back End
-                    <input type="checkbox" />Full Stack
-                </label>
+                <select className="answers">
+                    <option value="checkbox">Front End</option>
+                    <option value="checkbox">Back End</option>
+                    <option value="checkbox">Full Stack</option>
+                </select>
 
                 <p>Question 2: What development languages do you use? </p>
-                <label className="answers">
-                    <input type="checkbox" />HTML + CSS
-                    <input type="checkbox" />Javascript
-                    <input type="checkbox" />React
-                    <input type="checkbox" />Python
-                </label>
+                <select className="answers">
+                    <option value="checkbox">HTML + CSS</option>
+                    <option value="checkbox">Javascript</option>
+                    <option value="checkbox">React</option>
+                    <option value="checkbox">Python</option>
+                </select>
 
                 <p>Question 3: How long would the project be for? </p>
-                <label className="answers">
-                    <input type="checkbox" />Two Weeks or Less
-                    <input type="checkbox" />One Month
-                    <input type="checkbox" />Three Months
-                    <input type="checkbox" />Six Months
-                </label>
+                <select className="answers">
+                    <option value="checkbox">Two Weeks or Less</option>
+                    <option value="checkbox">One Month</option>
+                    <option value="checkbox">Three Months</option>
+                    <option value="checkbox">Six Months</option>
+                </select>
 
                 <p>Question 4: What level of commitment would you require from the developer? </p>
-                <label className="answers">
-                    <input type="checkbox" />Full Time
-                    <input type="checkbox" />Part Time
-                    <input type="checkbox" />Hourly
-                    <input type="checkbox" />I'll Decide Later
-                </label>
+                <select className="answers">
+                    <option value="checkbox">Full Time</option>
+                    <option value="checkbox">Part Time</option>
+                    <option value="checkbox">Hourly</option>
+                    <option value="checkbox">I'll Decide Later</option>
+                </select>
 
                 <p>Question 5: When do you need the developer to start? </p>
-                <label className="answers">
-                    <input type="checkbox" />Immediately
-                    <input type="checkbox" />One To Two Weeks
-                    <input type="checkbox" />One Month
-                    <input type="checkbox" />I'll Decide Later
-                </label> {"\n"}
+                <select className="answers">
+                    <option value="checkbox">Immediately</option>
+                    <option value="checkbox">One To Two Weeks</option>
+                    <option value="checkbox">One Month</option>
+                    <option value="checkbox">I'll Decide Later</option>
+                </select>
                 
-                <label className="submit">
-                    <input type="submit" />
-                </label>
-            </form>
-            
-            
+                <select className="submit">
+                    <option value="submit" />
+                </select>           
         </div>
     );
 };

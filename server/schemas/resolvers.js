@@ -45,7 +45,16 @@ const resolvers = {
 
             const token = signToken(user)
             return { token, user };
+
         }, 
+        updateUser: async (parent, args, context) => {
+            const user = await User.findOneAndUpdate(
+                {_id: context.user._id},
+                {$push: {position: args.PositionDetails}},
+                {new: true}
+            )
+            return updateUser
+        }
     },
 };
 
