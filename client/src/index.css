@@ -26,7 +26,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inconsolata', monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   font-size: 20px;
@@ -34,12 +34,12 @@ body {
   background-color: var(--backgroundbeige);
 }
 
-.center {
+/* .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
+} */
 
 img {
   border-style: var(--descriptionhome);
