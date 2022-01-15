@@ -34,6 +34,26 @@ body {
   background-color: var(--backgroundbeige);
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+  border-style: var(--descriptionhome);
+  border-radius: var(--headerfooter);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.img1 {
+  height: 500px;
+  width: 500px;
+}
 h1,
 h2,
 h3,
@@ -253,10 +273,19 @@ nav a:hover {
   font-size: 25px;
 }
 
+.btn1 {
+  color: var(--textinsidebox);
+  background-color: var(--Logodarkgreen);
+  font-size: 30px;
+}
+
 .btn:hover {
   background-color: var(--boxlinksdarkgreen);
 }
 
+.btn1:hover {
+  background-color: var(--boxlinksdarkgreen);
+}
 /* For Footer */
 .footer1 {
   font-size: 20px;

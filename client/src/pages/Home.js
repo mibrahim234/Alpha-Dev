@@ -10,13 +10,23 @@ const Home = () => {
         
         <div>
             
-            <h1>We connect companies eager to succeed with talented developers! </h1>
+            <h1 className='center'>We connect companies eager to succeed with talented developers! </h1>
 
-            <h1>Matching talent with Opportunity.</h1>
+          <img src="/images/developer.jpg" alt="Developer Working on code"/>
 
-            <button className="btn m-3"> <Link to="/developers">Companies - Find Talent</Link></button>
+          <div className="container flex-row justify-space-between justify-center align-center">
 
-            <button className="btn m-3"><Link to="/companies">Developers - Find An Opportunity</Link></button>
+          <button className="btn1 m-4"> <Link to="/developers">Companies - Find Talent</Link></button>
+
+          <button className="btn1 m-4"><Link to="/companies">Developers - Find An Opportunity</Link></button>
+
+          </div>
+
+            <h1 className='center'>Matching talent with Opportunity.</h1>
+
+            <img src="/images/teamwork.jpg" alt="People working together" className='img1'/>
+
+           
           </div>
 
     )
