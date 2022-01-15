@@ -30,10 +30,15 @@ const Header = () => {
         <nav className="text-center">
           {Auth.loggedIn() ? (
             <>
-              <Link to="/">Me</Link>
-              <a href="/" onClick={logout}>
+              <button className='btn m-4'> <Link to="/home">Home</Link></button>
+              <button className='btn m-4'> <Link to="/companies">Companies</Link></button>
+              <button className='btn m-4'> <Link to="/devolopers">Developers</Link></button>
+
+              <button className='btn m-4'> <Link to="/" onClick={logout}>Logout</Link></button>
+
+              {/* <a href="/" onClick={logout}>
                 Logout
-              </a>
+              </a> */}
             </>
           ) : (
             <>
