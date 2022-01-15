@@ -17,9 +17,9 @@ const Home = () => {
 
           <div className="container flex-row justify-space-between justify-center align-center">
 
-          <button className="btn1 m-4 py-3"> <Link to="/developers">Companies - Find Talent</Link></button>
+          <button className="btn1 m-4 py-3"> <Link to="/companies">Companies - Find Talent</Link></button>
 
-          <button className="btn1 m-3 py-3"><Link to="/companies">Developers - Find An Opportunity</Link></button>
+          <button className="btn1 m-3 py-3"><Link to="/developers">Developers - Find An Opportunity</Link></button>
 
           </div>
 
