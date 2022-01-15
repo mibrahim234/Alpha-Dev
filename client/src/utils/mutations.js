@@ -24,6 +24,7 @@ export const ADD_USER = gql`
   }
 `;
 
-export const UPDATE_USER = gql`
-mutation
-`
+// export const UPDATE_DEV_USER = gql`
+// mutation updateDevUser
+// updateDevUser
+// `

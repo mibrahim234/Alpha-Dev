@@ -19,8 +19,8 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import NoMatch from "./pages/NoMatch";
 import Signup from "./pages/Signup";
-import Companies from "./pages/Companies-New";
-import Developers from "./pages/Developer-New";
+import Companies from "./pages/Companies";
+import Developers from "./pages/Developer";
 
 // establish a new link to the graphql server
 const httpLink = createHttpLink({
