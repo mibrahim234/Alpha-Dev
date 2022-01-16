@@ -21,6 +21,8 @@ import NoMatch from "./pages/NoMatch";
 import Signup from "./pages/Signup";
 import Companies from "./pages/Companies";
 import Developers from "./pages/Developers";
+import resDev from "./pages/resDev";
+import resComp from "./pages/resComp";
 
 // establish a new link to the graphql server
 const httpLink = createHttpLink({
@@ -56,6 +58,8 @@ function App() {
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/companies" component={Companies} />
               <Route exact path="/developers" component={Developers} />
+              <Route exact path="/resDev" component={resDev} />
+              <Route exact path="/resComp" component={resComp} />
 
               <Route component={NoMatch} />
             </Switch>
