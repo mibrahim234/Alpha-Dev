@@ -25,7 +25,7 @@ const Header = () => {
             <>
               {/* <button className='btn m-4'> <Link to="/">Home</Link></button> */}
               <button className='btn m-4 py-2'> <Link to="/companies">Companies</Link></button>
-              <button className='btn m-4 py-2'> <Link to="/devolopers">Developers</Link></button>
+              <button className='btn m-4 py-2'> <Link to="/developers">Developers</Link></button>
 
               <button className='btn m-4 py-2'> <Link to="/" onClick={logout}>Logout</Link></button>
             </>
