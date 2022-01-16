@@ -25,7 +25,7 @@ const Home = () => {
 
             <h1 className='page-title m-4'>Matching talent with Opportunity.</h1>
 
-            <img src="/images/teamwork.jpg" alt="People working together" className='img1'/>
+            <img src="/images/teamwork.jpg" alt="All hands together, representing teamwork" className='img1'/>
 
            
           </div>
