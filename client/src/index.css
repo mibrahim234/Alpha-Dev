@@ -40,7 +40,8 @@ body {
   margin-right: auto;
   width: 50%;
 } */
-
+ 
+/* Adjusting images */
 img {
   border-style: var(--descriptionhome);
   border-radius: var(--headerfooter);
@@ -50,10 +51,12 @@ img {
   width: 50%;
 }
 
+/* Second Image */
 .img1 {
-  height: 500px;
+  height: 400px;
   width: 500px;
 }
+
 h1,
 h2,
 h3,
@@ -264,6 +267,20 @@ nav a:hover {
 
 .container-fluid {
   width: 92%;
+}
+
+/* Title */
+.title {
+  font-size: 50px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title:hover {
+  background-color: var(--textinsidebox);
+}
+ /* Change all h1 font family */
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Button Styles for all buttons */
