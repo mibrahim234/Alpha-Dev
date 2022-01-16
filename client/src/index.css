@@ -283,6 +283,25 @@ h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+/* Companies and developers questions */
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+.answers {
+  color: var(--textinsidebox);
+  background-color: var(--Logodarkgreen);
+  font-size: 25px;
+}
+
+option:hover {
+  background-color: var(--textinsidebox);
+}
 /* Button Styles for all buttons */
 .btn {
   color: var(--Logodarkgreen);
@@ -303,6 +322,18 @@ h1 {
 .btn1:hover {
   background-color: var(--boxlinksdarkgreen);
 }
+
+.submitbtn {
+  color: var(--textinsidebox);
+  background-color: var(--Logodarkgreen);
+  font-size: 30px;
+}
+
+.submitbtn:hover {
+  background-color: var(--boxlinksdarkgreen);
+}
+
+
 /* For Footer */
 .footer1 {
   font-size: 20px;
@@ -868,6 +899,20 @@ h1 {
 .bg-dark {
   background-color: var(--dark);
 }
+
+/* Flexbox code for companies */
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px solid yellow;
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+} 
 
 /* FLEX CONTENT */
 .flex-row {

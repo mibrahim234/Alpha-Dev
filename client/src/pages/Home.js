@@ -19,13 +19,13 @@ const Home = () => {
 
           <button className="btn1 m-4 py-3"> <Link to="/companies">Companies - Find Talent</Link></button>
 
-          <button className="btn1 m-3 py-3"><Link to="/developer">Developers - Find An Opportunity</Link></button>
+          <button className="btn1 m-3 py-3"><Link to="/developers">Developers - Find An Opportunity</Link></button>
 
           </div>
 
             <h1 className='page-title m-4'>Matching talent with Opportunity.</h1>
 
-            <img src="/images/teamwork.jpg" alt="People working together" className='img1'/>
+            <img src="/images/teamwork.jpg" alt="All hands together, representing teamwork" className='img1'/>
 
            
           </div>
