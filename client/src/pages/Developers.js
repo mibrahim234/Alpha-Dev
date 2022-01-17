@@ -18,7 +18,6 @@ const Developers = () => {
     }
 
     return (
-
         <div>
             <h1 className="mb-2 py-2 title text-center">Let's Talk!</h1>
             <h2 className="mb-2 py-2 text-center"> Let us help you find the right opportunities! Answer the following questions!</h2>
@@ -67,18 +66,13 @@ const Developers = () => {
                         <option value="One Month">One Month</option>
                         <option value="3 Months<">3 Months</option>
                     </select>
-                    </div>
+                </div>
 
                     <div className="container flex-row justify-space-between justify-center align-center">
-                <h2 className="mb-2 py-2"> Click Submit to discover your talent:</h2>
-
-                <button type="submit" className='submitbtn m-2 py-2'>  <Link to="/resDev">Submit</Link> </button>
-
-
-                        </div>
+                        <h2 className="mb-2 py-2"> Click Submit to discover your talent:</h2>
+                        <button type="submit" className='submitbtn m-2 py-2'>  <Link to="/resDev">Submit</Link> </button>
+                    </div>
             </form>
-                
-
         </div>
     );
 };

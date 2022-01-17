@@ -23,7 +23,7 @@ const typeDefs = gql`
     }
 
     input DevDetails {
-        perferredStack: String!,
+        perferredRole: String!,
         language: String!,
         availability: String!, 
         commitment: String!, 
