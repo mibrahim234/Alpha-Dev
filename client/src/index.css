@@ -57,6 +57,12 @@ img {
   width: 500px;
 }
 
+/* Third image */
+.img2 {
+  height: 600px;
+  width: 400px;
+}
+
 h1,
 h2,
 h3,
@@ -343,6 +349,10 @@ option:hover {
   text-align: center;
 }
 
+/* For Cards */
+.card1 {
+  background-color: var(--backgroundbeige);
+}
 /* DISPLAY */
 .display-none {
   display: none;
