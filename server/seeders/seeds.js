@@ -25,7 +25,7 @@ db.once('open', async () => {
 //     {
 //       "preferredRole": "Front End",
 //       "language": "HTML+CSS",
-//       "availability": "One month",
+//       "length": "One month",
 //       "commitment": "Full-Time",
 //       "startDate": "Immediately",
 //       "id": 1
@@ -33,7 +33,7 @@ db.once('open', async () => {
 //     {
 //       "preferredRole": "Back End",
 //       "language": "JavaScript",
-//       "availability": "Two Weeks Or Less",
+//       "length": "Two Weeks Or Less",
 //       "commitment": "Part-Time",
 //       "startDate": "One To Two Weeks",
 //       "id": 2
@@ -41,7 +41,7 @@ db.once('open', async () => {
 //     {
 //       "preferredRole": "Full Stack",
 //       "language": "React",
-//       "availability": "Three Months",
+//       "length": "Three Months",
 //       "commitment": "Hourly",
 //       "startDate": "One Month",
 //       "id": 3
@@ -49,7 +49,7 @@ db.once('open', async () => {
 //     {
 //       "preferredRole": "Back End",
 //       "language": "Python",
-//       "availability": "Six Months",
+//       "length": "Six Months",
 //       "commitment": "Full-Time",
 //       "startDate": "I'll Decide Later",
 //       "id": 4
@@ -57,7 +57,7 @@ db.once('open', async () => {
 //     {
 //       "preferredRole": "Front End",
 //       "language": "React",
-//       "availability": "One month",
+//       "length": "One month",
 //       "commitment": "Full-Time",
 //       "startDate": "Immediately",
 //       "id": 5

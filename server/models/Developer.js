@@ -8,7 +8,7 @@ const devSchema = new Schema({
     language: {
         type: String,
     },
-    availability: {
+    length: {
         type: String,
     },
     commitment: {
