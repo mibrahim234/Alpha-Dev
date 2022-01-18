@@ -25,6 +25,6 @@ export const ADD_USER = gql`
 `;
 
 // export const UPDATE_DEV_USER = gql`
-// mutation updateDevUser
+// mutation updateDevUser(id: !, input)
 // updateDevUser
 // `

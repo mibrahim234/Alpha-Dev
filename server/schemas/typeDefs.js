@@ -13,36 +13,36 @@ const typeDefs = gql`
         _id: ID
         username: String
         email: String
+        position: String
+    }
+
+    input DevDetails {
+        perferredRole: String,
+        language: String,
+        availability: String, 
+        commitment: String, 
+        startDate: String
+    }
+
+    input CompanyDetails {
+        preferredRole: String,
+        language: String,
+        length: String,
+        commitment: String,
+        startDate: String
     }
 
     type Query {
         me: User
         users: [User]
         user(username: String!): User
-
-    }
-
-    input DevDetails {
-        perferredRole: String!,
-        language: String!,
-        availability: String!, 
-        commitment: String!, 
-        startDate: String!
-    }
-
-    input CompanyDetails {
-        preferredRole: String!,
-        language: String!,
-        length: String!,
-        commitment: String!,
-        startDate: String!
     }
 
     type Mutation {
         login(email: String!, password: String!): Auth
         addUser(username: String!, email: String!, password: String!): Auth
-        updateDevUser(position: DevDetails): User
-        updateCompanyUser(position: CompanyDetails): User
+        updateDevUser(id: ID!, input: DevDetails): User
+        updateCompanyUser(id: ID!, input: CompanyDetails): User
     }
 `;
 
