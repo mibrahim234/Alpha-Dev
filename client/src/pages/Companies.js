@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { Link } from 'react-router-dom';
-
+ import Grid from '@mui/material/Grid';
+ import Container from '@mui/material/Container';
 
 const Companies = () => {
 
@@ -22,6 +23,13 @@ const Companies = () => {
             <h1 className="mb-2 py-2 title text-center">Let's Talk!</h1>
             <h2 className="mb-2 py-2 text-center"> Let us know what skills your company is looking for by answering the following questions.</h2>
            
+            {/* <Container>
+            <Grid container justify="space-around" spacing={5}>
+      
+      </Grid>
+        </Container> */}
+
+
            <form id="company-form" onSubmit={handleSubmit}>
                 <div className="text-center mb-2 py-2 ">
                     <p>Question 1: What role are you looking to hire? </p>
