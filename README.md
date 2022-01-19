@@ -1,9 +1,4 @@
 # Alpha Dev
---customize the index.html react app
---manifest 
---readme 
---mongodb database
---brainstorm the app ideas (formatting)
 
 # Alpha Dev ![GitHub license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 
