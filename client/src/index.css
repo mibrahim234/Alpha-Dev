@@ -353,14 +353,6 @@ option:hover {
   background-color: var(--boxlinksdarkgreen);
 }
 
-.image::before {
-  content:url(http://placehold.it/350x150);
-}
-
-​.image1::before {
-  content:url(http://placehold.it/350x150);
-}
-
 /* For Footer */
 .footer1 {
   margin-top: auto;

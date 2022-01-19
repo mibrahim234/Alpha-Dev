@@ -23,7 +23,7 @@ const Header = () => {
         <nav className="text-center">
           {Auth.loggedIn() ? (
             <>
-              {/* <button className='btn m-4'> <Link to="/">Home</Link></button> */}
+              <button className='btn m-4'> <Link to="/profile">Profile</Link></button>
               <button className='btn m-4 py-2'> <Link to="/companies">Companies</Link></button>
               <button className='btn m-4 py-2'> <Link to="/developers">Developers</Link></button>
 

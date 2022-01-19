@@ -1,16 +1,13 @@
 import React from 'react';
-// import { useQuery } from '@apollo/client';f
+// import { useQuery } from '@apollo/client';
 import { Link } from 'react-router-dom';
 
-// make pages for company and developers 
-// need to add responsiveness 
+
 
 const Home = () => {
     return (
         
         <div>
-
-
             <h1 className='page-title m-2 py-5'>Welcome to AlphaDev! <br></br>We connect companies eager to succeed with talented developers. </h1>
 
           <img src="/images/developer.jpg" alt="Developer Working on code" className='mb-4'/>

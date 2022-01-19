@@ -21,6 +21,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import NoMatch from "./pages/NoMatch";
 import Signup from "./pages/Signup";
+import Profile from "./pages/Profile";
 import Companies from "./pages/Companies";
 import Developers from "./pages/Developers";
 import resDev from "./pages/resDev";
@@ -58,6 +59,7 @@ function App() {
               <Route exact path="/" component={Home} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
+              <Route exact path="/profile" component={Profile} />
               <Route exact path="/companies" component={Companies} />
               <Route exact path="/developers" component={Developers} />
               <Route exact path="/resDev" component={resDev} />

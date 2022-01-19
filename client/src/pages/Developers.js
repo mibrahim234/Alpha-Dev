@@ -83,7 +83,7 @@ const Developers = () => {
 
                     <div className="container flex-row justify-space-between justify-center align-center">
                         <h2 className="mb-2 py-2"> Click Submit to discover your opportunity:</h2>
-                        <button type="submit" className='submitbtn m-2 py-2'>  <Link to="/resDev">Submit</Link> </button>
+                        <button type="submit" className='submitbtn m-2 py-2'>  <Link to="/profile">Submit</Link> </button>
                     </div>
             </form>
         </div>
