@@ -13,6 +13,23 @@ const typeDefs = gql`
         _id: ID
         username: String
         email: String
+        position: Developer
+        }
+
+    type Developer {
+        preferredRole: String
+        language: String
+        length: String
+        commitment: String
+        startDate: String
+    }
+
+    type Company {
+        preferredRole: String
+        language: String
+        length: String
+        commitment: String
+        startDate: String
     }
 
     type Query {
@@ -23,9 +40,9 @@ const typeDefs = gql`
     }
 
     input DevDetails {
-        perferredRole: String!,
+        preferredRole: String!,
         language: String!,
-        availability: String!, 
+        length: String!, 
         commitment: String!, 
         startDate: String!
     }

@@ -48,9 +48,10 @@ const resolvers = {
 
         }, 
         updateDevUser: async (parent, args, context) => {
+            // console.log(args)
             const updatedUser = await User.findOneAndUpdate(
                 {_id: context.user._id},
-                {$push: {position: args.DevDetails}},
+                {position: args.position},
                 {new: true}
             )
             return updatedUser

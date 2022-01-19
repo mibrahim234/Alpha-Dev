@@ -6,6 +6,13 @@ export const QUERY_USER = gql`
       _id
       username
       email
+      position {
+        preferredRole
+        language
+        length
+        commitment
+        startDate
+      }
     }
   }
 `;
@@ -19,3 +26,6 @@ export const QUERY_ME = gql`
     }
   }
 `;
+
+
+// week 18 activity 2

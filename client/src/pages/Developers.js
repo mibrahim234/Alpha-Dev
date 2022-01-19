@@ -1,21 +1,34 @@
 import React, {useState} from "react";
 import { Link } from 'react-router-dom';
+import { useMutation } from "@apollo/client";
+import { UPDATE_DEV_USER } from "../utils/mutations";
 
 
 const Developers = () => {
 
-    const [formState, setFormState] = useState({ preferredRole: "", language: "", length: "", commitment: "", startDate:"" })
+    const [formState, setFormState] = useState( { position: { preferredRole: "", language: "", length: "", commitment: "", startDate:"" } } )
     const { preferredRole, language, length, commitment, startDate } = formState;
 
+    const [updateDevUser, { error }] = useMutation(UPDATE_DEV_USER);
+
     function handleChange(e) {
-        setFormState({...formState, [e.target.name]: e.target.value })
+        setFormState({...formState, position:{...formState.position, [e.target.name]: e.target.value }})
     }
     console.log(formState)
 
-    function handleSubmit(e) {
-        e.preventDefault();
+    const handleSubmit = async event => {
+        event.preventDefault();
         // console.log(formState);
-    }
+
+        try {
+            // add user answers to database
+            await updateDevUser({
+                variables: { formState }
+            });
+        } catch (e) {
+            console.log(e)
+        }
+    };
 
     return (
         <div>

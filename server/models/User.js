@@ -25,7 +25,7 @@ const userSchema = new Schema(
       required: true,
       minlength: 5
     },
-    position: devSchema || companySchema
+    position: devSchema 
   },
   {
     toJSON: {

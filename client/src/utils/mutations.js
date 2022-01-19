@@ -24,7 +24,19 @@ export const ADD_USER = gql`
   }
 `;
 
-// export const UPDATE_DEV_USER = gql`
-// mutation updateDevUser
-// updateDevUser
-// `
+export const UPDATE_DEV_USER = gql`
+mutation updateDevUser($position: DevDetails){
+  updateDevUser(position: $position) {
+    _id
+    username
+    email
+    position {
+      preferrerRole
+      language
+      length
+      commitment
+      startDate
+    }
+  }
+}
+`
