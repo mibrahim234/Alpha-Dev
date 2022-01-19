@@ -66,5 +66,20 @@ const resolvers = {
         },
     }
 };
+// Remove user? 
+//         removeDevUser: async (parent, args, context) => {
+//             console.log('Developer Removed.')
+
+//             if (context.user) {
+//       const updatedUser = await User.findOneAndUpdate(
+//          { _id: context.user._id },
+//         { $pull: { updatedDevUser: { devId: args.devId }}
+//     },
+//     { new: true });
+//     return updatedUser;
+//   }
+//   throw new AuthenticationError('You need to be logged in!');
+// }
+
 
 module.exports = resolvers;
