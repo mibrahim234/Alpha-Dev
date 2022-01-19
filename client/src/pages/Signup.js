@@ -80,7 +80,16 @@ const Signup = () => {
                 value={formState.password}
                 onChange={handleChange}
               />
-              <button className="btn d-block w-100" type="submit">
+
+                    {/* <p className='mb-5 py-2'>Are you a Developer or a Company?  </p> */}
+                    <select className="text-center btn d-block w-100" name="Role">
+                        <option value="Developer">Developer</option>
+                        <option value="Company">Company</option>
+                        
+                        </select>
+                       
+
+              <button className="btn d-block w-100 mb-5" type="submit">
                 Signup
               </button>
             </form>
