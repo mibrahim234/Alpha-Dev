@@ -23,6 +23,13 @@ export const QUERY_ME = gql`
       _id
       username
       email
+      position {
+        preferredRole
+        language
+        length
+        commitment
+        startDate
+      }
     }
   }
 `;
