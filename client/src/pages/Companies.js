@@ -66,7 +66,7 @@ import CardContent from '@mui/material/CardContent';
 
             <h1 className="mb-2 py-2 title text-center">Here are the companies AlphaDev has worked with!</h1>
 
-        <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+        <Grid container spacing={{ xs: 3, md: 4 }} columns={{ xs: 4, sm: 8, md: 12 }}>
         {companies.map((company, index) => {
             return (
                 <Grid item xs={2} sm={4} md={4} key={index}>

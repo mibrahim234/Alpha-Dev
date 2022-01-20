@@ -11,7 +11,7 @@ const Home = () => {
         <div>
             <h1 className='page-title m-2 py-5'>Welcome to AlphaDev! <br></br>We connect companies eager to succeed with talented developers. </h1>
 
-            <img src="/images/developer.jpg" alt="Developer Working on code" className='mb-4'/>
+            <img src="/images/developer.jpg" alt="Developer Working on code" className='mb-4 .justify-space-between-sm'/>
 
             <div className="container flex-row justify-space-between justify-center align-center">
               {Auth.loggedIn() ? (
@@ -27,9 +27,9 @@ const Home = () => {
               
             </div>
 
-            <h1 className='page-title m-4'>Matching talent with Opportunity.</h1>
+            <h1 className='page-title m-4 justify-space-between-sm'>Matching talent with Opportunity.</h1>
 
-            <img src="/images/shakinghand.jpg" alt="Boss Shaking Hand, representing opportunity" className='mb-4'/>
+            <img src="/images/shakinghand.jpg" alt="Boss Shaking Hand, representing opportunity" className='mb-4 justify-space-between-sm' />
 
            
         </div>
