@@ -1,11 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
+import { useQuery } from "@apollo/client";
+import { QUERY_ME } from "../utils/queries";
 
 const Profile = () => {
+    
+    const {error, loading, data } = useQuery(QUERY_ME)
+    const [profile, setProfile] = useState([])
+
+    useEffect(() => {
+        console.log(data);
+        setProfile(data)
+    }, [data])
+
     return (
         <div>
 
             <h1 className="mb-2 py-2 title text-center">Here is your current information.</h1>
+                <div>
+                    <h1>Username: {data.me.username}</h1>
+                    <h1>Email: {data.me.email}</h1>
+                    <h1>Preferred Role: {data.me.position.preferredRole}</h1>
+                    <h1>Developer Language: {data.me.position.language}</h1>
+                    <h1>Level of Commitment: {data.me.position.length}</h1>
+                    <h1>Availability: {data.me.position.commitment}</h1>
+                    <h1>When Can You Start: {data.me.position.startDate}</h1>
+                </div>
             <h2 className="mb-2 py-2 text-center"> Companies will contact you shortly. </h2>
 
             {/* Have a card component here with username, email
