@@ -369,11 +369,23 @@ option:hover {
   text-align: center;
 }
 
-/* For Cards */
+/* For Cards profilepage/company page */
 .card1 {
   background-color: var(--backgroundbeige);
   border-color: var(--Logodarkgreen);
   border-radius: var(--Logodarkgreen);
+  font-size: 25px;
+  margin: auto;
+  text-align: center;
+}
+
+.card2 {
+  background-color: var(--backgroundbeige);
+  border-color: var(--Logodarkgreen);
+  border-radius: var(--Logodarkgreen);
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
 }
 /* DISPLAY */
 .display-none {

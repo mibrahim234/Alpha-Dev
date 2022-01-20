@@ -25,26 +25,30 @@ const Profile = () => {
    return <h1 className='page-title m-2 py-5'>LOADING...</h1>
   }
 
+    // className="container flex-row justify-space-between justify-center align-center"
     return (
-        <div className="container flex-row justify-space-between justify-center align-center">
+        <div>
 
             <h1 className="mb-2 py-2 title text-center">
             Hello, {userData.username} </h1>
-           <h2>A company will contact you shortly!</h2>
-           <h3>Here is your current information:</h3>
-
+           <h2 className="mb-2 py-2 text-center">A company will contact you shortly!</h2>
+           
             <Card className="justify-center align-center ">
+            
             <CardContent className="card1">
-                    <h1>Username: {data.me.username}</h1>
-                    <h1>Email: {data.me.email}</h1>
+            <h2 className="card2 m-2 py-2">Here is your current information:</h2>
+
+                    <h2 className="card1 m-1 py-1">Username: {data.me.username}</h2>
+                    <h2 className="card1 m-1 py-1">Email: {data.me.email}</h2>
                 </CardContent>
 
-                <CardContent className="card1 mb-2 py-2">
-                    <h2>Preferred Role: {data.me.position.preferredRole}</h2>
-                    <h2 className="mb-2 py-2">Developer Language: {data.me.position.language}</h2>
-                    <h2>Level of Commitment: {data.me.position.length}</h2>
-                    <h2>Availability: {data.me.position.commitment}</h2>
-                    <h2>When Can You Start: {data.me.position.startDate}</h2>
+                <CardContent className="card1">
+                    <h2 className="card1 m-1 py-1">Preferred Role: {data.me.position.preferredRole}</h2>
+                    <h2 className="card1 m-1 py-1">Developer Language: {data.me.position.language}</h2>
+                    <h2 className="card1 m-1 py-1">Level of Commitment: {data.me.position.length}</h2>
+                    <h2 className="card1 m-1 py-1">Availability: {data.me.position.commitment}</h2>
+
+                    <h2 className="card1 m-1 py-1">When Can You Start: {data.me.position.startDate}</h2>
                     </CardContent>
             </Card>
         </div>
