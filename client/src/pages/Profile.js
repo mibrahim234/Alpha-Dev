@@ -30,8 +30,8 @@ const Profile = () => {
 
             <h1 className="mb-2 py-2 title text-center">
             Hello, {userData.username} </h1>
-             <h2>Here is your current information.</h2>
-           <h3>A company will contact you shortly</h3>
+           <h2>A company will contact you shortly!</h2>
+           <h3>Here is your current information:</h3>
 
             <Card className="justify-center align-center ">
             <CardContent className="card1">
