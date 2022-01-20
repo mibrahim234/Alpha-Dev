@@ -3,7 +3,7 @@ import React from 'react';
 const NoMatch = () => {
   return (
     <div>
-      Oops, we couldn't find that page.
+         <h1 className='page-title m-2 py-5'>Oops, we couldn't find that page. </h1>
     </div>
   );
 };

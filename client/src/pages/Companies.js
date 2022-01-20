@@ -1,10 +1,8 @@
 // page will be company mock data 
 import React, {useState, useEffect} from "react";
-import { Link } from 'react-router-dom';
  import Grid from '@mui/material/Grid';
  import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
  
  const Companies = () => { 
     const [companies, setCompanies] = useState([])
