@@ -86,7 +86,8 @@ const Developers = () => {
                         <button type="submit" className='submitbtn m-3 py-2'>Submit</button>
                     </div>
 
-                    {/* <button type="submit" className='submitbtn m-3 py-2'><Link to="/profile">Submit</Link></button> */}
+                    {/* <button type="submit" className='submitbtn m-3 py-2' onClick={() => handleSubmitData(Id)}>
+                            ><Link to="/profile">Submit</Link></button> */}
             </form>
         </div>
     );
