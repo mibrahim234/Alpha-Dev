@@ -372,6 +372,8 @@ option:hover {
 /* For Cards */
 .card1 {
   background-color: var(--backgroundbeige);
+  border-color: var(--Logodarkgreen);
+  border-radius: var(--Logodarkgreen);
 }
 /* DISPLAY */
 .display-none {
