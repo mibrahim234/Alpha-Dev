@@ -1,14 +1,16 @@
-# Alpha Dev
-
 # Alpha Dev ![GitHub license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 
 ## Deployed Site 
 https://devhelpthebestdevhelp.herokuapp.com/
 
 
+
 ## Description 
- Alpha Dev is an interactive web application built using the MERN stack and GraphQL for its API's.
-This website helps companies hire software engineers for freelance work. This website is also a place developers can join and work for companies. 
+AlphaDev is a freelance application which connects developers with companies for freelance work. <br> Additionally, AlphaDev helps companies find talented developers suited for their needs. <br>
+AlphaDev is an interactive web application built using the MERN stack and GraphQL for its API's.
+
+  ![AlphaDev Screenshot](Assets/AlphaDev.jpg)
+
 
 
 
@@ -73,7 +75,7 @@ The license is MIT License.
 Read more about it at https://opensource.org/licenses/MIT.
 
 ## Credits
-Tutors Donnahue
+Donnahue, Andrew, Terrence, and Jonathan
 
 ## Questions
 - Please reach out to us through github or by email. 
