@@ -14,7 +14,7 @@ const Developers = () => {
     function handleChange(e) {
         setFormState({...formState, position:{...formState.position, [e.target.name]: e.target.value }})
     }
-    console.log(formState)
+    // console.log(formState)
 
     const handleSubmit = async event => {
         event.preventDefault();
@@ -23,7 +23,7 @@ const Developers = () => {
         try {
             // add user answers to database
             await updateDevUser({
-                variables: { formState }
+                variables: { ...formState }
             });
         } catch (e) {
             console.log(e)
@@ -83,7 +83,7 @@ const Developers = () => {
 
                     <div className="container flex-row justify-space-between justify-center align-center">
                         <h2 className="mb-2 py-2"> Click Submit to discover your opportunity:</h2>
-                        <button type="submit" className='submitbtn m-2 py-2'>  <Link to="/profile">Submit</Link> </button>
+                        <button type="submit" className='submitbtn m-2 py-2'>Submit</button>
                     </div>
             </form>
         </div>
