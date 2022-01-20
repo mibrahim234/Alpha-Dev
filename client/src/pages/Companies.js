@@ -75,6 +75,7 @@ import CardContent from '@mui/material/CardContent';
             <h1 className="mb-2 py-2">{company.companyName}:</h1>
             </CardContent>  
 
+               {/* Image working on it  */}
             {/* <CardContent className="card1">
           <h2 className="mb-2 py-2">{company.Image}</h2>
           </CardContent> */}
