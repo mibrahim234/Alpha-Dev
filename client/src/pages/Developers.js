@@ -32,7 +32,7 @@ const Developers = () => {
 
     return (
         <div>
-            <h1 className="mb-2 py-2 title text-center">Let's Talk!</h1>
+            <h1 className="mb-2 py-2 title1 text-center">Let's Talk!</h1>
             <h2 className="mb-2 py-2 text-center"> Let us help you find the right opportunities! Answer the following questions!</h2>
             
             <form id="developer-form" onSubmit={handleSubmit} >
