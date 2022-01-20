@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 import { useQuery } from "@apollo/client";
 import { QUERY_ME } from "../utils/queries";
-import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 
@@ -32,37 +31,22 @@ const Profile = () => {
             <h1 className="mb-2 py-2 title text-center">
             Hello, {userData.username} </h1>
              <h2>Here is your current information.</h2>
-           
+           <h3>A company will contact you shortly</h3>
 
-            <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-
-            <Card>
+            <Card className="justify-center align-center ">
             <CardContent className="card1">
                     <h1>Username: {data.me.username}</h1>
                     <h1>Email: {data.me.email}</h1>
                 </CardContent>
 
-                <CardContent className="card1">
-                    <h1>Preferred Role: {data.me.position.preferredRole}</h1>
-                 </CardContent>
-
-                 <CardContent className="card1">
-                    <h1 className="mb-2 py-2">Developer Language: {data.me.position.language}</h1>
-                    </CardContent>
-
-                    <CardContent className="card1">
-                    <h1>Level of Commitment: {data.me.position.length}</h1>
-                    </CardContent>
-
-                    <CardContent className="card1">
-                    <h1>Availability: {data.me.position.commitment}</h1>
-                    </CardContent>
-
-                    <CardContent className="card1">
-                    <h1>When Can You Start: {data.me.position.startDate}</h1>
+                <CardContent className="card1 mb-2 py-2">
+                    <h2>Preferred Role: {data.me.position.preferredRole}</h2>
+                    <h2 className="mb-2 py-2">Developer Language: {data.me.position.language}</h2>
+                    <h2>Level of Commitment: {data.me.position.length}</h2>
+                    <h2>Availability: {data.me.position.commitment}</h2>
+                    <h2>When Can You Start: {data.me.position.startDate}</h2>
                     </CardContent>
             </Card>
-         </Grid>
         </div>
     )
 };
