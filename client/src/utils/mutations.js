@@ -31,7 +31,7 @@ mutation updateDevUser($position: DevDetails){
     username
     email
     position {
-      preferrerRole
+      preferredRole
       language
       length
       commitment
