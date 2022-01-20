@@ -12,27 +12,27 @@ import Typography from '@mui/material/Typography';
     // hardcode fake image for now 
     useEffect(() => {
         const tempCompanies = [{ 
-        companyName: "Amazon",
+        companyName: "Etsy",
         Image: "",
         jobTitle: "Full Stack",
         startDate: "Immediately",
-        language: "Perl"
+        language: "JavaScript"
         // url slide in here 
      }, 
      { 
-        companyName: "Tesla", 
+        companyName: "Airbnb", 
         Image: "",
         jobTitle: "Backend",
         startDate: "One Month",
-        language: "C++"
+        language: "Ruby"
 
      },
      { 
-        companyName: "Adobe", 
+        companyName: "Sarwar Consults", 
         Image: "",
-        jobTitle: "Backend",
+        jobTitle: "Frontend",
         startDate: "One week",
-        language: "Java"
+        language: "React"
 
      },
      { 
@@ -74,23 +74,23 @@ import Typography from '@mui/material/Typography';
                 <Grid item xs={2} sm={4} md={4} key={index}>
             <Card>
             <CardContent className="card1">
-            <h1 className="mb-2 py-2">{company.companyName}</h1>
+            <h1 className="mb-2 py-2">{company.companyName}:</h1>
             </CardContent>  
 
-            <CardContent className="card1">
+            {/* <CardContent className="card1">
           <h2 className="mb-2 py-2">{company.Image}</h2>
+          </CardContent> */}
+
+          <CardContent className="card1">
+          <h2>Role: {company.jobTitle}</h2>
           </CardContent>
 
           <CardContent className="card1">
-          <h2 className="mb-2 py-2">Role: {company.jobTitle}</h2>
+          <h3>Start Date: {company.startDate}</h3>
           </CardContent>
 
           <CardContent className="card1">
-          <h3 className="mb-2 py-2">Start Date: {company.startDate}</h3>
-          </CardContent>
-
-          <CardContent className="card1">
-          <h3 className="mb-2 py-2">Favorite: {company.language}</h3>
+          <h3>Favorite: {company.language}</h3>
           </CardContent>
         </Card>
         </Grid>
