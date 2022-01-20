@@ -77,7 +77,7 @@ const Developers = () => {
                         <option value="Immediately">Immediately</option>
                         <option value="One To Two Weeks">One To Two Weeks</option>
                         <option value="One Month">One Month</option>
-                        <option value="3 Months<">3 Months</option>
+                        <option value="3 Months">3 Months</option>
                     </select>
                 </div>
 
