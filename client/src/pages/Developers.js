@@ -2,9 +2,12 @@ import React, {useState} from "react";
 import { Link } from 'react-router-dom';
 import { useMutation } from "@apollo/client";
 import { UPDATE_DEV_USER } from "../utils/mutations";
+import { useHistory } from "react-router-dom";
 
 
 const Developers = () => {
+
+    let history = useHistory();
 
     const [formState, setFormState] = useState( { position: { preferredRole: "", language: "", length: "", commitment: "", startDate:"" } } )
     const { preferredRole, language, length, commitment, startDate } = formState;
@@ -25,6 +28,7 @@ const Developers = () => {
             await updateDevUser({
                 variables: { ...formState }
             });
+            history.push("/profile")
         } catch (e) {
             console.log(e)
         }
