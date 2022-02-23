@@ -68,6 +68,7 @@ npm start
 - [Mongo](https://www.mongodb.com/)
 - [Mongoose](https://mongoosejs.com/docs/)
 - [Express](https://www.npmjs.com/package/express-session)
+- [JWT](https://jwt.io/)
 
 ## License
 Copyright (c) [2022]
